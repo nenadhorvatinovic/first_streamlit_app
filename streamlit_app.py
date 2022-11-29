@@ -36,7 +36,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # prikazi tablicu
 streamlit.dataframe(fruityvice_normalized)
 
-// dont start anything from here
+# dont start anything from here
 streamlit.stop()
 
 # dodaj vezu na snowflake connector
